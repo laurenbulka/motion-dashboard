@@ -1,0 +1,18 @@
+
+#logo-container{
+
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    grid-template-areas: ". logo-reveal . ";
+
+    >div{
+        grid-area: logo-reveal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        svg{
+            width: 100%;
+    }
+}
+}

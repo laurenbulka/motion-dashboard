@@ -423,28 +423,18 @@ textarea {
 /* =============
     Footer
 ============= */
-#ferriswheel {
+#logo-container {
   display: grid;
-  grid-template-columns: auto 90% auto;
-  grid-template-areas: ". ferriswheel .";
+  grid-template-columns: auto 60% auto;
+  grid-template-areas: ". logo-reveal . ";
 }
-@media (min-width: 768px) {
-  #ferriswheel {
-    grid-template-columns: auto 80% auto;
-  }
-}
-@media (min-width: 992px) {
-  #ferriswheel {
-    grid-template-columns: auto 50% auto;
-  }
-}
-#ferriswheel > div {
-  grid-area: ferriswheel;
-  height: 100vh;
+#logo-container > div {
+  grid-area: logo-reveal;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
-#ferriswheel #loading-bar {
-  margin-top: 250px;
+#logo-container > div svg {
+  width: 100%;
 }
