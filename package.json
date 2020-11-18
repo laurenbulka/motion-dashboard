@@ -7,6 +7,6 @@
   "license": "UNLICENSED",
   "repository": {},
   "dependencies": {
-    "gsap": "file:../../../Downloads/gsap-shockingly-green/npm-install-this/package"
+    "gsap": "file:gsap-bonus.tgz"
   }
 }
