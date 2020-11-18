@@ -65,6 +65,22 @@
 		"oAP": "/deploy/logo.html",
 		"oF": 0
 		},
+	"/dev/content/dashboard/dashboard.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/dashboard.html",
+		"oF": 0
+		},
+	"/dev/content/face-scan/face-scan.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/face-scan/face-scan.html",
+		"oF": 0
+		},
 	"/dev/content/logo.kit": {
 		"cB": 0,
 		"ft": 2048,
