@@ -438,3 +438,7 @@ textarea {
 #logo-container > div svg {
   width: 100%;
 }
+
+#face-scan {
+  display: none;
+}
