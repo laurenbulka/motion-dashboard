@@ -94,14 +94,14 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/ferriswheel.js": {
-		"bF": 0,
+	"/dev/js/logo.js": {
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/ferriswheel-min.js",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/logo-min.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1689,28 +1689,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"/Users/laurenbulka/Downloads/gsap-shockingly-green/npm-install-this/package/CSSPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/Users/laurenbulka/Downloads/gsap-shockingly-green/npm-install-this/package/gsap-core.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/gsap-core-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		}
 	},
 "hooks": [

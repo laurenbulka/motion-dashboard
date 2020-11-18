@@ -1,5 +1,12 @@
-import {gsap} from "gsap";
-import {wheelTL} from "./ferriswheel.js";
+import { gsap } from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
+gsap.registerPlugin(GSDevTools);
 
-const mainTl = gsap.timeline();
-mainTl.add(wheelAnimation());
+import { drawAnimation } from "./logo.js";
+
+gsap.registerPlugin(GSDevTools);
+
+const mainTL = gsap.timeline()
+mainTL.add(drawAnimation());
+
+GSDevTools.create();
