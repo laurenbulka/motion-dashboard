@@ -439,6 +439,10 @@ textarea {
   width: 100%;
 }
 
+body {
+  background-color: black;
+}
+
 #face-scan {
   display: none;
 }
