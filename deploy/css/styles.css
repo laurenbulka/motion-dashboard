@@ -423,26 +423,23 @@ textarea {
 /* =============
     Footer
 ============= */
-#logo-container {
+#svg-container {
   display: grid;
   grid-template-columns: auto 60% auto;
-  grid-template-areas: ". logo-reveal . ";
+  grid-template-areas: " . svg-content . ";
+  background-color: #000;
 }
-#logo-container > div {
-  grid-area: logo-reveal;
+#svg-container > div {
+  grid-area: svg-content;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
-#logo-container > div svg {
+#svg-container > div svg {
   width: 100%;
-}
-
-body {
-  background-color: black;
-}
-
-#face-scan {
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

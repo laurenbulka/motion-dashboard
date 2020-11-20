@@ -3,7 +3,8 @@
 
     display: grid;
     grid-template-columns: auto 60% auto;
-    grid-template-areas: ". logo-reveal . ";
+    grid-template-areas: " . logo-reveal . ";
+    position: absolute;
 
     >div{
         grid-area: logo-reveal;
@@ -11,14 +12,34 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
+
         svg{
-            width: 100%;      
+            width: 100%;
+            position: relative;      
     }
 }
 }
 
-body {background-color:black;}
+#scanner{
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    grid-template-areas: ". face-scan . ";
+    position: relative;
 
-#face-scan{
-    display:none
+    >div{
+        grid-area: face-scan;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        svg{
+            width: 100%; 
+            //position: absolute     
+    }
 }
+
+    //display:none;
+    
+}
+
+body {background-color:black;}

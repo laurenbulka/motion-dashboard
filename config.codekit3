@@ -65,20 +65,12 @@
 		"oAP": "/deploy/logo.html",
 		"oF": 0
 		},
-	"/dev/content/dashboard/dashboard.kit": {
+	"/dev/content/dashboard.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/dashboard/dashboard.html",
-		"oF": 0
-		},
-	"/dev/content/face-scan/face-scan.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/face-scan/face-scan.html",
+		"oAP": "/dev/content/dashboard.html",
 		"oF": 0
 		},
 	"/dev/content/logo.kit": {
@@ -88,6 +80,14 @@
 		"oA": 1,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/content/scanner.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/scanner.html",
+		"oF": 0
 		},
 	"/dev/global/head.kit": {
 		"cB": 0,
@@ -274,6 +274,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_logo.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_svg-container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_svg-container.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

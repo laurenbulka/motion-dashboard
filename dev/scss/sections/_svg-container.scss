@@ -1,0 +1,24 @@
+#svg-container{
+
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    grid-template-areas: " . svg-content . ";
+    background-color: $black;
+
+    >div{
+        grid-area: svg-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: relative;  
+
+        svg{
+            width: 100%;
+            position: absolute;
+            top:0;
+            left:0;
+        }
+                
+    }
+}
