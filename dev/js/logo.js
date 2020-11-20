@@ -11,6 +11,9 @@ export function logoAnimation(){
 
     logoTL.fromTo("#rebel-logo",{drawSVG:"0% 10%"},{duration:2, drawSVG: "90% 100%", ease:"none"})
           .to("#rebel-logo",{duration:2, drawSVG: "100%"});
-          logoTL.to("#rebel-logo", {duration:1, scale: .4, x:120, y:-100})
+      logoTL.from("#rebel-logo-fill", {duration:1, alpha:0})   
+      logoTL.to("#logo-reveal", {duration:1, scale: .35, x:133, y:-100})
+
+          
 
     return logoTL}
