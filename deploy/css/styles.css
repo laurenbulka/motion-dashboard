@@ -443,3 +443,6 @@ textarea {
   top: 0;
   left: 0;
 }
+#svg-container #dashboard {
+  display: none;
+}
