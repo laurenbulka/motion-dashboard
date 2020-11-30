@@ -7,7 +7,7 @@ const dashboardTL = gsap.timeline();
 
 export function dashboardAnimation(){ 
 
-    dashboardTL.from("#Stroke-7",{duration:0, drawSVG: "0%", ease:"none"}, "load-sight")
+    dashboardTL.from("#Stroke-9",{duration:0, drawSVG: "0%", ease:"none"}, "load-sight")
 
 
           
