@@ -31,9 +31,10 @@ export function scannerAnimation(){
     scannerTL.from("#c3po-green", {duration:1, alpha:0}, "green")
     scannerTL.from("#access-green", {duration:1, alpha:0}, "green")
 
-    scannerTL.to("#c3po-green", {duration:2, alpha:0}, "end")
-    scannerTL.to("#access-green", {duration:2, alpha:0}, "end")
+    scannerTL.to("#c3po-green", {duration:1, alpha:0}, "end")
+    scannerTL.to("#access-green", {duration:1, alpha:0}, "end")
     scannerTL.to("#c3po", {duration:1, alpha:0}, "end")
     scannerTL.to("#access", {duration:1, alpha:0}, "end")
+    scannerTL.to("#clip-path", {duration:1, alpha:0}, "end")
 
     return scannerTL}
