@@ -1,7 +1,9 @@
 import { gsap } from "gsap";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
 
 gsap.registerPlugin(DrawSVGPlugin);
+gsap.registerPlugin(ScrambleTextPlugin);
 
 const dashboardTL = gsap.timeline();
 
@@ -30,7 +32,7 @@ export function dashboardAnimation(){
     dashboardTL.from("#tr",{duration:.5, drawSVG: "0%"}, "droids")
     dashboardTL.from("#br",{duration:.5, drawSVG: "0%"}, "droids")
     dashboardTL.from(".brain-path",{duration:1, drawSVG: "0%"}, "droids")
-    dashboardTL.from(".rasio-lines",{duration:1, drawSVG: "0%"}, "droids")
+    dashboardTL.from(".rasio-lines",{duration:1, drawSVG: "0%", ease: "none"}, "droids")
   
     //dashboardTL.from("#droid-brains",{duration:.5, alpha:0}, "droids")
     //dashboardTL.from("#right-brain",{duration:.5, alpha:0}, "droids")
@@ -120,6 +122,7 @@ export function dashboardAnimation(){
     dashboardTL.from("#dial-m",{duration:.1, alpha:0})
     dashboardTL.from("#dial-p",{duration:.1, alpha:0})
     dashboardTL.from("#dial-h",{duration:.1, alpha:0})
+    dashboardTL.from("#speedometer-text",{duration:1, scrambleText:{text:"00", chars:"0123456789"}},"speedometer")
     
     dashboardTL.from(".sight-draw",{duration:1, drawSVG: "0%"}, "sight-load")
     //dashboardTL.from("#sight",{duration:.5, drawSVG: "0%"}, "sight-load")
