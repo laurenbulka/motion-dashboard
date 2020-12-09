@@ -443,21 +443,12 @@ textarea {
   top: 0;
   left: 0;
 }
-#svg-container #dashboard #warning {
+#svg-container #warning {
   display: none;
 }
-#svg-container #dashboard #repair {
+#svg-container #repair {
   display: none;
 }
-#svg-container #dashboard #tie-fighter {
-  display: none;
-}
-#svg-container #dashboard #right-brain-red {
-  display: none;
-}
-#svg-container #dashboard #Fill-5 {
-  display: none;
-}
-#svg-container #dashboard #Fill-6 {
+#svg-container #right-brain-red {
   display: none;
 }

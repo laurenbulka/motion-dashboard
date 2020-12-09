@@ -65,13 +65,69 @@
 		"oAP": "/deploy/logo.html",
 		"oF": 0
 		},
-	"/dev/content/dashboard.kit": {
+	"/dev/content/dashboard/droid-brains.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/dashboard.html",
-		"oF": 0
+		"oAP": "/dev/content/dashboard/droid-brains.html",
+		"oF": 1
+		},
+	"/dev/content/dashboard/fuel-gauge.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/fuel-gauge.html",
+		"oF": 1
+		},
+	"/dev/content/dashboard/radio.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/radio.html",
+		"oF": 1
+		},
+	"/dev/content/dashboard/repair.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/repair.html",
+		"oF": 1
+		},
+	"/dev/content/dashboard/right-brain.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/right-brain.html",
+		"oF": 1
+		},
+	"/dev/content/dashboard/sight-frames.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/sight-frames.html",
+		"oF": 1
+		},
+	"/dev/content/dashboard/speedometer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/speedometer.html",
+		"oF": 1
+		},
+	"/dev/content/dashboard/warning.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/warning.html",
+		"oF": 1
 		},
 	"/dev/content/logo.kit": {
 		"cB": 0,
@@ -143,6 +199,17 @@
 		"oA": 1,
 		"oAP": "/deploy/js/logo-min.js",
 		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/movingdash.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/movingdash-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},

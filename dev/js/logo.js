@@ -9,8 +9,8 @@ export function logoAnimation(){
 
     //logoTL.from("#rebel-logo",{duration:3, drawSVG: "0%", ease:"none"});
 
-    logoTL.fromTo("#rebel-logo",{drawSVG:"0% 10%"},{duration:1, drawSVG: "90% 100%", ease:"none"})
-          .to("#rebel-logo",{duration:1.5, drawSVG: "100%"});
+    logoTL.fromTo("#rebel-logo",{drawSVG:"0% 10%"},{duration:2, drawSVG: "90% 100%", ease:"none"})
+          .to("#rebel-logo",{duration:.75, drawSVG: "100%"});
       logoTL.from("#rebel-logo-fill", {duration:.75, alpha:0})   
       logoTL.to("#logo-reveal", {duration:1, scale: .35, x:133, y:-100})
 

@@ -15,19 +15,23 @@ export function dashboardAnimation(){
     dashboardTL.from("#radio-outline",{duration:1, drawSVG: "0%"}, "beginning")
     dashboardTL.from("#dial-fill",{duration:1, drawSVG: "0%"}, "beginning")
     dashboardTL.from("#outer-dial",{duration:1, drawSVG: "0%"}, "beginning")
+    dashboardTL.from("#innerfill",{duration:1, alpha:0}, "beginning")  
+    dashboardTL.from("#dial-fill",{duration:1, alpha:0}, "beginning") 
     //dashboardTL.from("#gauge",{duration:1, drawSVG: "0% 60%"}, "beginning")
    
 
     dashboardTL.from("#outer1",{duration:1, drawSVG: "0%"}, "next")     
-    dashboardTL.from("#outer2",{duration:1, drawSVG: "0%"}, "next")  
+    dashboardTL.from("#outer2",{duration:1, drawSVG: "0%"}, "next") 
+    
    
    
     dashboardTL.from("#tl",{duration:.5, drawSVG: "0%"}, "droids")
     dashboardTL.from("#bl",{duration:.5, drawSVG: "0%"}, "droids")
     dashboardTL.from("#tr",{duration:.5, drawSVG: "0%"}, "droids")
     dashboardTL.from("#br",{duration:.5, drawSVG: "0%"}, "droids")
-    dashboardTL.from(".brain-path",{duration:1, drawSVG: "0%"})
-    //dashboardTL.from(".radio-lines",{duration:1, drawSVG: "0%"})
+    dashboardTL.from(".brain-path",{duration:1, drawSVG: "0%"}, "droids")
+    dashboardTL.from(".rasio-lines",{duration:1, drawSVG: "0%"}, "droids")
+  
     //dashboardTL.from("#droid-brains",{duration:.5, alpha:0}, "droids")
     //dashboardTL.from("#right-brain",{duration:.5, alpha:0}, "droids")
 
@@ -108,19 +112,21 @@ export function dashboardAnimation(){
     dashboardTL.from("#s81",{duration:0.02, drawSVG: "0%"})
 
   
-    dashboardTL.from("#dial-3",{duration:.1, alpha:0})
-    dashboardTL.from("#dial-9",{duration:.1, alpha:0})
-    dashboardTL.from("#dial-8",{duration:.1, alpha:0})
-    dashboardTL.from("#dial-m",{duration:.1, alpha:0})
-    dashboardTL.from("#dial-p",{duration:.1, alpha:0})
-    dashboardTL.from("#dial-h",{duration:.1, alpha:0})
 
     dashboardTL.from("#system-text",{duration:.5, alpha:0}, "text")
     dashboardTL.from("#fuel-label",{duration:.5, alpha:0}, "text")
+
+    dashboardTL.from("#Group-2",{duration:.5, alpha:0})  
+    dashboardTL.from("#dial-m",{duration:.1, alpha:0})
+    dashboardTL.from("#dial-p",{duration:.1, alpha:0})
+    dashboardTL.from("#dial-h",{duration:.1, alpha:0})
     
-    dashboardTL.from("#sight",{duration:.5, alpha:0}, "sight-load")
+    dashboardTL.from(".sight-draw",{duration:1, drawSVG: "0%"}, "sight-load")
+    //dashboardTL.from("#sight",{duration:.5, drawSVG: "0%"}, "sight-load")
     dashboardTL.from("#fuel-right-fill",{duration:.75, drawSVG: "0%"}, "sight-load")
     dashboardTL.from("#fuel-left-fill",{duration:.75, drawSVG: "0%"}, "sight-load")
-    dashboardTL.fromTo("#gauge",{drawSVG:"0%"},{duration:.3, drawSVG: "30%", transformOrigin: "50% 50%", ease:"none"},"sight-load")
+    dashboardTL.fromTo("#gauge",{drawSVG:"0%"},{duration:.5, drawSVG: "77%", transformOrigin: "50% 50%", ease:"none"},"sight-load")
+    
+
 
     return dashboardTL}
