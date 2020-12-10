@@ -1,1 +1,0 @@
-import{gsap}from"gsap";const tiefighterTL=gsap.timeline();export function tiefighterAnimation(){return tiefighterTL.from("#tie-fighter",{duration:.4,alpha:0}),tiefighterTL.from("#tie-fighter",{duration:.4,x:47,y:50}),tiefighterTL}
