@@ -113,6 +113,14 @@
 		"oAP": "/dev/content/dashboard/sight-frames.html",
 		"oF": 1
 		},
+	"/dev/content/dashboard/sight-mask.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/dashboard/sight-mask.html",
+		"oF": 0
+		},
 	"/dev/content/dashboard/sight.kit": {
 		"cB": 0,
 		"ft": 2048,

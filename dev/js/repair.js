@@ -16,15 +16,14 @@ export function tiefighterAnimation() {
     tiefighterTL.from("#tie-fighter-green",{duration:.6, alpha:0},"center")
 
   
-    tiefighterTL.to("#sight",{duration:.7, x:-137, y:-100},"t-2")
-    tiefighterTL.to("#sight",{duration:.8, x:-36, y:-14},"t-3")
-    tiefighterTL.to("#sight",{duration:.8,  x:-17, y:-30},"t-4")
-    tiefighterTL.to("#sight",{duration:.9, x:30, y:80},"t-5")
-    tiefighterTL.to("#sight",{duration:1, x:0, y:0},"t-6")
+    tiefighterTL.to("#sight",{duration:.7, x:300, y:400},"t-2")
+    tiefighterTL.to("#sight",{duration:.8, x:270, y:300},"t-3")
+    tiefighterTL.to("#sight",{duration:.8,  x:350, y:530},"t-4")
+    tiefighterTL.to("#sight",{duration:.9, x:200, y:380},"t-5")
+    tiefighterTL.to("#sight",{duration:1, x:245, y:351},"t-6")
 
 
     tiefighterTL.from("#sight-red",{duration:1, alpha:0},"center")
-    
 
     //WARNING ANIMATION
     tiefighterTL.from("#warning",{duration:.4, alpha:0})
