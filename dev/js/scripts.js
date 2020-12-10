@@ -6,6 +6,7 @@ import { logoAnimation } from "./logo.js";
 import { scannerAnimation } from "./face-scan.js";
 import { dashboardAnimation } from "./dashboard.js";
 import { movingdashAnimation } from "./movingdash.js";
+import { repairAnimation } from "./repair.js";
 
 gsap.registerPlugin(GSDevTools);
 
@@ -14,5 +15,6 @@ mainTL.add(logoAnimation())
 mainTL.add(scannerAnimation())
 mainTL.add(dashboardAnimation())
 mainTL.add(movingdashAnimation())
+mainTL.add(repairAnimation())
 
 GSDevTools.create();

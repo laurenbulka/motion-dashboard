@@ -443,12 +443,3 @@ textarea {
   top: 0;
   left: 0;
 }
-#svg-container #warning {
-  display: none;
-}
-#svg-container #repair {
-  display: none;
-}
-#svg-container #right-brain-red {
-  display: none;
-}

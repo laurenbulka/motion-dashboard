@@ -38,7 +38,7 @@ export function dashboardAnimation(){
     //dashboardTL.from("#right-brain",{duration:.5, alpha:0}, "droids")
 
  
-
+    //SPOKES
     dashboardTL.from("#s1",{duration:0.02, drawSVG: "0%"})
     dashboardTL.from("#s2",{duration:0.02, drawSVG: "0%"})
     dashboardTL.from("#s3",{duration:0.02, drawSVG: "0%"})
@@ -89,7 +89,6 @@ export function dashboardAnimation(){
     dashboardTL.from("#s48",{duration:0.02, drawSVG: "0%"})
     dashboardTL.from("#s49",{duration:0.02, drawSVG: "0%"})
     dashboardTL.from("#s50",{duration:0.02, drawSVG: "0%"})
-   
     dashboardTL.from("#s60",{duration:0.02, drawSVG: "0%"})
     dashboardTL.from("#s61",{duration:0.02, drawSVG: "0%"})
     dashboardTL.from("#s62",{duration:0.02, drawSVG: "0%"})
@@ -114,10 +113,11 @@ export function dashboardAnimation(){
     dashboardTL.from("#s81",{duration:0.02, drawSVG: "0%"})
 
   
-
+    //TEXT
     dashboardTL.from("#system-text",{duration:.5, alpha:0}, "text")
     dashboardTL.from("#fuel-label",{duration:.5, alpha:0}, "text")
 
+    //SPEEDOMETER TEXT
     dashboardTL.from("#Group-2",{duration:.5, alpha:0})  
     dashboardTL.from("#dial-m",{duration:.1, alpha:0})
     dashboardTL.from("#dial-p",{duration:.1, alpha:0})
