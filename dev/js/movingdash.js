@@ -10,19 +10,6 @@ const movingdashTL = gsap.timeline();
 
 export function movingdashAnimation(){ 
 
-    //WARNING ANIMATION
-    movingdashTL.from("#warning",{duration:.4, alpha:0})
-    movingdashTL.from("#warning",{duration:.4, alpha:1})
-    movingdashTL.from("#warning",{duration:.4, alpha:0})
-    movingdashTL.from("#warning",{duration:.4, alpha:1})
-    movingdashTL.from("#warning",{duration:.4, alpha:0})
-    movingdashTL.from("#warning",{duration:.4, alpha:1})
-    movingdashTL.from("#warning",{duration:.4, alpha:0})
-    
-
-    //TIE FIGHTER
-
-
 
 
 
