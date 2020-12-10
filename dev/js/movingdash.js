@@ -93,5 +93,7 @@ export function movingdashAnimation(){
     
     movingdashTL.from("#alert-100",{duration:.2, alpha:0, delay:4.8}, "gauge")
 
+    movingdashTL.to("#repair",{duration:1, alpha:0, delay:6}, "gauge")
+
 
     return movingdashTL}
